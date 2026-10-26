@@ -1,0 +1,456 @@
+/* общее */
+body {
+    font-family: 'Trigonon';
+    margin: 0;
+    background-color: #fffdf4;
+    cursor: url('../images/cursor.svg') 0 0, auto;
+}
+
+::selection {
+    background-color: #ffe430;
+}
+
+p {
+    letter-spacing: -1%;
+}
+
+img {
+    display: block;
+    user-select: none;
+    pointer-events: none;
+}
+
+/* страница */
+.site {
+    position: relative;
+    width: 1280px;
+    overflow: hidden;
+}
+
+.site img {
+    position: absolute;
+}
+
+.hero, .history, .weights, .anatomy, .languages {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+/* обложка */
+.hero {
+    height: 1059px;
+    padding-top: 271px;
+    padding-left: 274px;
+}
+
+.sun {
+    position: absolute;
+    top: -275px;
+    left: 825px;
+    width: 570px;
+    height: 570px;
+    border-radius: 50%;
+    background-color: #ffe851;
+}
+
+.typeface, .label {
+    color: rgba(55, 53, 52, 0.4);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.typeface {
+    margin-left: 322px;
+}
+
+.title, .trig {
+    color: #302e2c;
+    font-size: 183px;
+    font-weight: 900;
+    line-height: 202px;
+    letter-spacing: 0;
+}
+
+.title {
+    margin-top: -22px;
+}
+
+.trig {
+    position: relative;
+    margin-top: -202px;
+}
+
+.sand1 {
+    top: 399px;
+    left: 0;
+}
+
+.road1 {
+    top: 549px;
+    left: 0;
+}
+
+.cactus1 {
+    top: 60px;
+    left: 0;
+}
+
+.cactus2 {
+    top: 45px;
+    left: 1007px;
+}
+
+/* история */
+.history {
+    margin-top: 187px;
+    padding: 0 32px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 242px auto;
+}
+
+.text {
+    position: relative;
+    color: #302e2c;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 46px;
+}
+
+.text b {
+    font-weight: 900;
+}
+
+.text2 {
+    margin-top: 711px;
+    margin-left: 242px;
+    text-indent: 371px;
+}
+
+.cactus3 {
+    top: 34px;
+    left: 0;
+}
+
+.line1 {
+    top: 30px;
+    left: 721px;
+}
+
+/* начертания */
+.weights {
+    height: 1558px;
+    margin-top: 324px;
+}
+
+.right {
+    align-self: flex-end;
+    margin-right: 32px;
+}
+
+.words {
+    display: flex;
+    align-items: flex-start;
+    margin-top: -24px;
+    margin-left: 629px;
+}
+
+.words p {
+    writing-mode: vertical-rl;
+    color: #373534;
+    font-size: 125px;
+    line-height: 100px;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.medium {
+    margin-top: 100px;
+    font-weight: 500;
+}
+
+.semibold {
+    margin-top: 200px;
+    font-weight: 600;
+}
+
+.bold {
+    margin-top: 300px;
+    font-weight: 700;
+}
+
+.extrabold {
+    margin-top: 400px;
+    font-weight: 800;
+}
+
+.black {
+    margin-top: 500px;
+    font-weight: 900;
+}
+
+.cactus4 {
+    top: 556px;
+    left: 295px;
+}
+
+.sand2 {
+    top: 1053px;
+    left: 0;
+}
+
+.cactus5 {
+    top: 198px;
+    left: 160px;
+}
+
+.road2 {
+    top: 1146px;
+    left: 0;
+}
+
+.cactus6 {
+    top: 947px;
+    left: 582px;
+}
+
+/* анатомия */
+.anatomy {
+    margin-top: 227px;
+    padding: 0 32px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.description {
+    color: #373534;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.description2 {
+    margin-top: 798px;
+}
+
+.cactus7 {
+    top: -34px;
+    left: 0;
+}
+
+/* языки */
+.languages {
+    height: 1599px;
+    margin-top: 272px;
+    padding-top: 669px;
+    overflow: hidden;
+}
+
+.big {
+    color: #373534;
+    font-size: 128px;
+    font-weight: 500;
+    line-height: 92px;
+}
+
+.big b {
+    position: relative;
+    font-size: 152px;
+    font-weight: 900;
+    vertical-align: -6px;
+}
+
+.big1 {
+    margin-left: 409px;
+}
+
+.big2 {
+    margin-left: 32px;
+}
+
+.big3 {
+    margin-left: 274px;
+}
+
+.sand3 {
+    top: 176px;
+    left: 0;
+}
+
+.sand4 {
+    top: 1043px;
+    left: 0;
+}
+
+.line2 {
+    top: 830px;
+    left: 369px;
+}
+
+.road3 {
+    top: 258px;
+    left: 0;
+}
+
+.road4 {
+    top: 1160px;
+    left: 0;
+}
+
+.cactus8 {
+    top: 0;
+    left: 21px;
+}
+
+.cactus9 {
+    top: 159px;
+    left: 722px;
+}
+
+.cactus10 {
+    top: 135px;
+    left: 990px;
+}
+
+.cactus11 {
+    top: 1074px;
+    left: 83px;
+}
+
+.cactus12 {
+    top: 1044px;
+    left: 665px;
+}
+
+.cactus13 {
+    top: 825px;
+    left: 866px;
+}
+
+/* глифы */
+.glyphs, .select {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.glyphs {
+    margin-top: 132px;
+    gap: 32px;
+}
+
+.select {
+    gap: 20px;
+}
+
+.letters {
+    display: flex;
+    gap: 24px;
+    color: #373534;
+    font-size: 75px;
+    font-weight: 400;
+    line-height: 71px;
+}
+
+.numbers {
+    gap: 3px;
+    letter-spacing: 0;
+    font-variant-numeric: lining-nums;
+}
+
+.letters span {
+    padding: 0 3px;
+    margin: 0 -3px;
+    background-image: url('../images/line3.svg');
+    background-repeat: no-repeat;
+    background-position: 0 42px;
+    background-size: 0 29px;
+    transition: font-weight 0.3s, background-size 0.3s;
+}
+
+/* при наведении на другую букву Aa гаснет */
+.select:hover .active {
+    font-weight: 400;
+    background-size: 0 29px;
+}
+
+.letters span:hover, .letters .active, .select .active:hover {
+    font-weight: 900;
+    background-size: 100% 29px;
+}
+
+/* подвал */
+.ligatures {
+    position: relative;
+    height: 922px;
+    margin-top: 221px;
+    padding: 866px 32px 0;
+    overflow: hidden;
+}
+
+.credits {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.credits p {
+    color: #373534;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    font-variant-numeric: lining-nums;
+}
+
+.sand5 {
+    top: 74px;
+    left: 166px;
+}
+
+.road5 {
+    top: 59px;
+    left: 298px;
+}
+
+.cactus14 {
+    top: 92px;
+    left: 180px;
+}
+
+.cactus15 {
+    top: 50px;
+    left: 853px;
+}
+
+.cactus16 {
+    top: 129px;
+    left: 551px;
+}
+
+.sign1 {
+    top: 112px;
+    left: 675px;
+}
+
+.sign2 {
+    top: 288px;
+    left: 540px;
+}
+
+.sign3 {
+    top: 180px;
+    left: 260px;
+}

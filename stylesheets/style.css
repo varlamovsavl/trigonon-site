@@ -1,0 +1,8 @@
+@import 'reset.css';
+@import 'layout.css';
+
+@font-face {
+    font-family: 'Trigonon';
+    src: url('../fonts/TrigononVF.ttf');
+    font-weight: 100 900;
+}
